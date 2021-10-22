@@ -11,36 +11,36 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: Keep Moving!
+    text: welcome to me
+    button: let's go
+    buttonlink: "#product"
 
-  services:
-    title: "Services"
+  product:
+    title: "Product"
     text: "Lorem ipsum"
-    section: services
+    section: product
     list:
-      - title: "E-Commerce"
+      - title: "2021-2020"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+        icon: fas fa-male #find more at https://fontawesome.com/icons
+      - title: "2019-2018"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        icon: fas fa-child
+      - title: "2017-2016"
         desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        icon: fab fa-baby
 
-  portfolio:
-    title: "Portfolio"
+  photography:
+    title: "Photography"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
+    section: photography
     closebutton: "Close Project"
 
-  timeline:
-    title: "Timeline"
+  daily:
+    title: "Daily"
     text: "Lorem ipsum timeline"
-    section: timeline
+    section: daily
     # left is the default
     #start_align: "left"
     events:
@@ -66,40 +66,22 @@ en: &DEFAULT_EN
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Be Part <br> of My <br> Story!"
 
-  about:
-    title: "About Us"
-    text: "our story"
+  sketch:
+    title: "Sketch"
+    text: "practice more"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
+    section: sketch
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "OUR AMAZING TEAM"
+  sketch:
+    title: "Sketch"
     text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
+    subtext: practice more
+    section: sketch
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "on the paper"
+        role: "pencil | ball-point pen"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -108,8 +90,8 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "on electronics"
+        role: "graphics tablet"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -118,8 +100,8 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
+      - name: "everywhere"
+        role: "anything"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -130,7 +112,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
+    title: "Contact Me"
     text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Name*"
