@@ -1,7 +1,7 @@
-<!-- Portfolio Modals -->
-{% for project in site.portfolio %}
+<!-- Photography Modals -->
+{% for project in site.photography %}
 <div
-  class="portfolio-modal modal fade"
+  class="photography-modal modal fade"
   id="p{{ forloop.index }}"
   tabindex="-1"
   role="dialog"
@@ -33,7 +33,7 @@
                 type="button"
               >
                 <i class="fas fa-times"></i>
-                {{ site.data.sitetext[site.locale].portfolio.closebutton |
+                {{ site.data.sitetext[site.locale].photography.closebutton |
                 default: "Close Project" }}
               </button>
             </div>
@@ -44,4 +44,4 @@
   </div>
 </div>
 {% endfor %}
-<!-- End Portfolio Modals -->
+<!-- End Photography Modals -->
