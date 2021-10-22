@@ -70,12 +70,6 @@ en: &DEFAULT_EN
 
   sketch:
     title: "Sketch"
-    text: "practice more"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: sketch
-
-  sketch:
-    title: "Sketch"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: practice more
     section: sketch
