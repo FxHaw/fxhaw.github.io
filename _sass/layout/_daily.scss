@@ -1,5 +1,5 @@
-// Styling for the timeline section
-.timeline {
+// Styling for the daily section
+.daily {
   position: relative;
   padding: 0;
   list-style: none;
@@ -25,7 +25,7 @@
     &:after {
       clear: both;
     }
-    .timeline-panel {
+    .daily-panel {
       position: relative;
       float: right;
       width: 100%;
@@ -44,7 +44,7 @@
         border-left-width: 0;
       }
     }
-    .timeline-image {
+    .daily-image {
       position: absolute;
       z-index: 100;
       left: 0;
@@ -62,7 +62,7 @@
         margin-top: 12px;
       }
     }
-    &.timeline-inverted > .timeline-panel {
+    &.daily-inverted > .timeline-panel {
       float: right;
       padding: 0 20px 0 100px;
       text-align: left;
@@ -83,7 +83,7 @@
       margin-bottom: 0;
     }
   }
-  .timeline-heading {
+  .daily-heading {
     h4 {
       margin-top: 0;
       color: inherit;
@@ -92,7 +92,7 @@
       }
     }
   }
-  .timeline-body {
+  .daily-body {
     > ul,
     > p {
       margin-bottom: 0;
@@ -113,7 +113,7 @@
         padding: 0 20px 20px 30px;
         text-align: right;
       }
-      .timeline-image {
+      .daily-image {
         left: 50%;
         width: 100px;
         height: 100px;
@@ -124,7 +124,7 @@
           margin-top: 16px;
         }
       }
-      &.timeline-inverted > .timeline-panel {
+      &.daily-inverted > .timeline-panel {
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
@@ -139,7 +139,7 @@
       .timeline-panel {
         padding: 0 20px 20px;
       }
-      .timeline-image {
+      .daily-image {
         width: 150px;
         height: 150px;
         margin-left: -75px;
@@ -149,20 +149,20 @@
           margin-top: 30px;
         }
       }
-      &.timeline-inverted > .timeline-panel {
+      &.daily-inverted > .daily-panel {
         padding: 0 20px 20px;
       }
     }
   }
 }
 @media (min-width: 1200px) {
-  .timeline {
+  .daily {
     > li {
       min-height: 170px;
-      .timeline-panel {
+      .daily-panel {
         padding: 0 20px 20px 100px;
       }
-      .timeline-image {
+      .daily-image {
         width: 170px;
         height: 170px;
         margin-left: -85px;
@@ -170,7 +170,7 @@
           margin-top: 40px;
         }
       }
-      &.timeline-inverted > .timeline-panel {
+      &.daily-inverted > .daily-panel {
         padding: 0 100px 20px 20px;
       }
     }
