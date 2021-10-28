@@ -15,10 +15,10 @@ en: &DEFAULT_EN
       section: product
     - title: "PHOTOGRAPHY"
       section: photography
+    - title: "SKETCH"
+      section: sketch     
     - title: "DAILY"
       section: daily
-    - title: "SKETCH"
-      section: sketch
     - title: "CONTACT"
       section: contact
     - title: "Theme Source"
